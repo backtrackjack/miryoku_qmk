@@ -7,14 +7,14 @@
 
 #pragma once
 
-#define HOME_A LCTL_T(KC_A)
-#define HOME_O LALT_T(KC_O)
-#define HOME_E LGUI_T(KC_E)
+#define HOME_A KC_A
+#define HOME_O KC_O
+#define HOME_E LCTL_T(KC_E)
 #define HOME_U LSFT_T(KC_U)
 #define HOME_H LSFT_T(KC_H)
-#define HOME_T LGUI_T(KC_T)
-#define HOME_N LALT_T(KC_N)
-#define HOME_S LCTL_T(KC_S)
+#define HOME_T LCTL_T(KC_T)
+#define HOME_N KC_N
+#define HOME_S KC_S
 #define LTHUMB_IN LT(U_MEDIA, KC_ESC)
 #define LTHUMB_MID LT(U_NAV, KC_SPC)
 #define LTHUMB_OUT LT(U_MOUSE, KC_TAB)

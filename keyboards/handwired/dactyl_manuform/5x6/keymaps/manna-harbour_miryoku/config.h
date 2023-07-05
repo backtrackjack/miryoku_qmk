@@ -14,12 +14,12 @@
      N30, N31, K32, K33, K34,                         K35, K36, K37, N38, N39 \
 ) \
 LAYOUT_5x6( \
-XXX, XXX, XXX, XXX, XXX, XXX,                         XXX, XXX, XXX, XXX, XXX, XXX, \
-XXX, K00, K01, K02, K03, K04,                         K05, K06, K07, K08, K09, XXX, \
-XXX, K10, K11, K12, K13, K14,                         K15, K16, K17, K18, K19, XXX, \
-XXX, K20, K21, K22, K23, K24,                         K25, K26, K27, K28, K29, XXX, \
-          XXX, XXX,                                             XXX, XXX, \
-                    K32, K33,                         K36, K37, \
-                              K34, XXX,     XXX, K35, \
-                              XXX, XXX,     XXX, XXX \
+  KC_MPLY, KC_1, KC_2, KC_3, KC_4, KC_5,                        KC_6, KC_7, KC_8, KC_9, KC_0, KC_MUTE, \
+   KC_GRV, K00, K01, K02, K03, K04,                                  K05, K06, K07, K08, K09, KC_SLSH, \
+   KC_ESC, K10, K11, K12, K13, K14,                                  K15, K16, K17, K18, K19, KC_MINS, \
+  KC_LGUI, K20, K21, K22, K23, K24,                                  K25, K26, K27, K28, K29, KC_LGUI, \
+           KC_DOWN, KC_UP,                                                  KC_LEFT, KC_RIGHT, \
+                     K32, K33,                                        K36, K37, \
+                               KC_PGUP, K34,             K35, KC_END, \
+                               KC_PGDN, XXX,             XXX, KC_HOME \
 )
