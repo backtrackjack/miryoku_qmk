@@ -9,10 +9,10 @@
 
 #define HOME_A KC_A
 #define HOME_O KC_O
-#define HOME_E LCTL_T(KC_E)
+#define HOME_E KC_E
 #define HOME_U LSFT_T(KC_U)
 #define HOME_H LSFT_T(KC_H)
-#define HOME_T LCTL_T(KC_T)
+#define HOME_T KC_T
 #define HOME_N KC_N
 #define HOME_S KC_S
 #define LTHUMB_IN LCTL_T(KC_ESC)
