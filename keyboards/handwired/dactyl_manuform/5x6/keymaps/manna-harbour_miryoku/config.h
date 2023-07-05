@@ -18,7 +18,7 @@ LAYOUT_5x6( \
    KC_GRV, K00, K01, K02, K03, K04,                                  K05, K06, K07, K08, K09, KC_SLSH, \
    KC_ESC, K10, K11, K12, K13, K14,                                  K15, K16, K17, K18, K19, KC_MINS, \
   KC_LGUI, K20, K21, K22, K23, K24,                                  K25, K26, K27, K28, K29, KC_LGUI, \
-           KC_DOWN, KC_UP,                                                  KC_LEFT, KC_RIGHT, \
+         LT(U_MOUSE, KC_DOWN), LALT_T(KC_UP),           LALT_T(KC_LEFT), LT(U_FUN, KC_RIGHT), \
                      K32, K33,                                        K36, K37, \
                                KC_PGUP, K34,             K35, KC_END, \
                                KC_PGDN, XXX,             XXX, KC_HOME \
