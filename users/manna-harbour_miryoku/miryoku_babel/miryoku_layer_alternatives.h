@@ -28,7 +28,7 @@
 KC_QUOT,  KC_COMM,      KC_DOT,               KC_P,                  KC_Y,       KC_F,      KC_G,   KC_C,   KC_R,         KC_L,     \
 HOME_A,   HOME_O,       HOME_E,               HOME_U,                KC_I,       KC_D,      HOME_H, HOME_T, HOME_N,       HOME_S,   \
 LBTN_LYR, ALGR_T(KC_Q), KC_J,                 KC_K,                  KC_X,       KC_B,      KC_M,   KC_W,   ALGR_T(KC_V), RBTN_LYR, \
-                U_NP, U_NP, LTHUMB_IN,LTHUMB_MID, LTHUMB_OUT,RTHUMB_OUT, RTHUMB_MID, RTHUMB_IN, U_NP, U_NP
+U_NP,     U_NP,         LTHUMB_IN, LTHUMB_MID, LTHUMB_OUT, RTHUMB_OUT, RTHUMB_MID, RTHUMB_IN, U_NP,   U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
 KC_Q,              KC_W,              KC_E,              KC_R,              KC_T,              KC_Y,              KC_U,              KC_I,              KC_O,              KC_P,              \
