@@ -7,16 +7,18 @@
 
 #pragma once
 
+#define SPLIT_OLED_ENABLE
+
 #define HOME_A KC_A
 #define HOME_O KC_O
 #define HOME_E KC_E
-#define HOME_U LSFT_T(KC_U)
-#define HOME_H LSFT_T(KC_H)
+#define HOME_U KC_U
+#define HOME_H KC_H
 #define HOME_T KC_T
 #define HOME_N KC_N
 #define HOME_S KC_S
 #define LTHUMB_IN LCTL_T(KC_ESC)
-#define LTHUMB_MID LT(U_NAV, KC_SPC)
+#define LTHUMB_MID KC_SPC
 #define LTHUMB_OUT LT(U_MEDIA, KC_TAB)
 #define RTHUMB_OUT LT(U_SYM, KC_ENT)
 #define RTHUMB_MID LT(U_NUM, KC_BSPC)
@@ -61,10 +63,10 @@ U_NA         , KC_ALGR        , TD(U_TD_U_FUN), TD(U_TD_U_MEDIA), U_NA      , OU
 U_NP         , U_NP           , U_NA          , U_NA            , U_NA      , KC_MSTP   , KC_MPLY        , KC_MUTE         , U_NP           , U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
-KC_LBRC      , KC_7           , KC_8          , KC_9            , KC_RBRC   , U_NA      , TD(U_TD_U_BASE), TD(U_TD_U_TAP)  , TD(U_TD_REBOOT), TD(U_TD_BOOT)  , \
-KC_SLSH      , KC_4           , KC_5          , KC_6            , KC_EQL    , U_NA      , KC_LSFT        , KC_LCTL         , KC_LALT        , KC_LGUI        , \
-KC_GRV       , KC_1           , KC_2          , KC_3            , KC_BSLS   , U_NA      , TD(U_TD_U_NUM) , TD(U_TD_U_NAV)  , KC_ALGR        , U_NA           , \
-U_NP         , U_NP           , KC_DOT        , KC_0            , KC_MINS   , U_NA      , U_NA           , U_NA            , U_NP           , U_NP
+KC_LBRC      , KC_7           , KC_8          , KC_9            , KC_RBRC   , KC_INS    , KC_HOME        , KC_UP           , KC_END         , KC_PGUP        , \
+KC_SLSH      , KC_4           , KC_5          , KC_6            , KC_EQL    , CW_TOGG   , KC_LEFT        , KC_DOWN         , KC_RGHT        , KC_PGDN        , \
+KC_GRV       , KC_1           , KC_2          , KC_3            , KC_BSLS   , U_RDO     , U_PST          , U_CPY           , U_CUT          , U_UND          , \
+U_NP         , U_NP           , KC_0        , KC_SPC            , KC_MINS   , KC_ENT    , KC_BSPC        , KC_DEL          , U_NP           , U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
 KC_LCBR      , KC_AMPR        , KC_ASTR       , KC_LPRN         , KC_RCBR   , U_NA      , TD(U_TD_U_BASE), TD(U_TD_U_TAP)  , TD(U_TD_REBOOT), TD(U_TD_BOOT)  , \
